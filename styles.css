@@ -7,4 +7,38 @@ body {
     font-family: "Outfit", serif;
     font-weight: 400, 700;
     font-style: normal;
+    background: hsl(212, 45%, 89%);
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    width: 32rem;
+}
+
+img {
+    width: 28.8rem;
+    height: 28.8rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.container p {
+    text-align: center;
+    margin: 0 2rem 2rem 2rem;
+    color: hsl(220, 15%, 55%);
 }
